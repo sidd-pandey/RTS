@@ -1,0 +1,33 @@
+------------ Options -------------
+activation: relu
+batch_size: 8
+bn_momentum: 0.1
+bn_momentum_decay: 0.6
+bn_momentum_decay_step: None
+checkpoints_dir: ./checkpoints
+classes: 10
+dataroot: /home/siddharth/modelnet40-normal_numpy
+dataset: modelnet
+device: cuda:0
+display_id: 200
+display_winsize: 256
+dropout: 0.7
+feature_num: 1024
+gpu_id: 0
+input_pc_num: 5000
+k: 3
+lr: 0.001
+nThreads: 8
+name: train
+node_num: 64
+normalization: batch
+pretrain: None
+pretrain_lr_ratio: 1
+random_pc_dropout_lower_limit: 1
+rot_horizontal: False
+rot_perturbation: False
+som_k: 9
+som_k_type: avg
+surface_normal: True
+translation_perturbation: False
+-------------- End ----------------
